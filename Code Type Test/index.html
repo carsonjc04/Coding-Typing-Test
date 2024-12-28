@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Typing Test</h1>
+
+    <div class="settings">
+      <label for="language">Language:</label>
+      <select id="language">
+        <option value="python">Python</option>
+        <option value="cpp">C++</option>
+        <option value="javascript">JavaScript</option>
+      </select>
+
+      <label for="difficulty">Difficulty:</label>
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </div>
+
+    <div class="code-container">
+      <div id="code-snippet" class="code-snippet"></div>
+    </div>
+
+    <textarea id="user-input" placeholder="Start typing here..."></textarea>
+
+    <div class="stats">
+      <p>Accuracy: <span id="accuracy">0%</span></p>
+      <p>WPM: <span id="wpm">0</span></p>
+      <p>Time: <span id="timer">0</span> seconds</p>
+    </div>
+
+    <button id="submit-button">Submit</button>
+    <p id="completed-message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
