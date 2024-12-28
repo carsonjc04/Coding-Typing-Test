@@ -13,7 +13,7 @@ This project was done using HTML and Javascript to create a typing test using co
 1. **Clone the Repository**  
    Clone the project repository to your local machine using the following command:
    ```bash
-   git clone https://github.com/your-username/game-launcher.git
+   git clone https://github.com/your-username/Coding-Typing-Test.git
    ```
 2.
    ```
